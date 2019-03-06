@@ -10,7 +10,7 @@
         </video>
         <header class="frontpage">
             <h1 class="frontname">
-                Erik VGA<br class="break"> Gratz
+                Erik VGb<br class="break"> Gratz
             </h1>
             <ul>
                 <li class="list">Software Developer</li>
