@@ -285,7 +285,6 @@ a {
     display: table-cell;
     float: left;
     width: 35%;
-    max-height: 20vh;
     margin:0 2.5%;
 }
 
