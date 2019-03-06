@@ -127,11 +127,13 @@ label {
     color: white;
     margin: 0;
     padding: 0;
+    font-size: 2vh;
 }
 
 .name {
     float: left;
-    padding: 3vh;
+    padding: 2vh;
+    font-size: 4vh;
     text-transform: uppercase;
 }
 
@@ -429,7 +431,7 @@ a {
     /*.break {*/
         /*display: none;*/
     /*}*/
-    /*.contactinfo {*/
+    /*!*.contactinfo {*!*/
         /*font-size: 4em;*/
         /*letter-spacing: 6px;*/
     /*}*/
@@ -474,10 +476,10 @@ a {
     /*}*/
 /*}*/
 
-/*@media all and (min-width: 900px) and (max-width: 1199px) {*/
-    /*.break {*/
-    /*display: none;*/
-    /*}*/
+@media all and (min-width: 900px) and (max-width: 8000px) {
+    .break {
+    display: none;
+    }
     /*.contactinfo {*/
         /*font-size: 1em;*/
         /*letter-spacing: 4px;*/
@@ -489,7 +491,7 @@ a {
     /*.navbar {*/
         /*font-size: 1em;*/
     /*}*/
-/*}*/
+}
 
 /*@media all and (min-width: 600px) and (max-width: 899px){*/
     /*.frontname {*/

@@ -21,7 +21,10 @@
                     <h4 class="port-title">
                         Connect4: Recreated in JavaScript</h4>
                     <p class="port-sub">A Student Project</p><br>
-                    <p class="port-desc">As part of my self-education in all things software, one of my learning sources had a learn-by-doing project set before us. With minimal help, I wrote the Object Oriented Javascript used to create this <strike>blatant rip-off</strike> well meaning homage to the classic childrens game. Click the image to play, using the arrow keys.</p><br>
+                    <p class="port-desc">As part of my self-education in all things software, one of my learning sources had a learn-by-doing
+                        project set before us. With minimal help and the provided HTML and CSS, I wrote the Object Oriented Javascript used
+                        to create this <strike>blatant rip-off</strike> well meaning homage to the classic childrens game. Click the image to
+                        play, using the arrow keys.</p><br>
                 </div>
             </div>
             <br><br><br><br><br>
@@ -35,7 +38,7 @@
                     and this platform included basic logic gates and conditional statements to flex the language of our sales emails. We ALSO had an existing
                     database of data scraped from the top 50,000 websites that detailed what tech they were using. I wrote SiteStats to bridge the two. </p><br>
                     <p class="port-desc">Written on the JavaFX platform for Windows, it receives a .CSV full of URLs,
-                        and querys the database for its entire dataset, working with it as a ResultSet object. it then collates the known data about the input URLs
+                        and querys the database for its entire dataset, working with it as a ResultSet object. It then collates the known data about the input URLs
                     into a format useable by our new email platform. Click the image to view the GitHub repo.</p><br>
                 </div>
             </div>
@@ -49,7 +52,10 @@
                         Principal Web Developer, Key Grip, 2018</p>
                     &nbsp;
 
-                    <p class="port-desc">A passion project produced by Nan Bozeman, a close friend of mine, Dysmorphia is a horror film which explores a character who struggles with eating disorders bordering on mania. On set, I led a team of grips in setting up and tearing down lighting equipment, set dressings, monitors and other equipment the creative team used to produce the film. Off set, I created their standalone website, utilizing a mix of HTML, CSS and JavaScript.</p>
+                    <p class="port-desc">A passion project produced by Nan Bozeman, a close friend of mine, Dysmorphia is a horror film which explores
+                        a character who struggles with eating disorders bordering on mania. On set, I led a team of grips in setting up and tearing down
+                        lighting equipment, set dressings, monitors and other equipment the creative team used to produce the film. Off set, I created
+                        their standalone website (now defunct), utilizing a mix of HTML, CSS and JavaScript.</p>
                 </div>
             </div>
             <br><br><br><br><br>
