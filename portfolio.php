@@ -16,7 +16,7 @@
                 </div>
 -->
             <div class="port-row">
-                <a href="/connect4/index.html"><img src="/connect4/connect4thumb.png" href="/connect4/index.html" class="port-image"></a>
+                <a href="/connect4/index.html"><img src="/img/Connect4Wide.PNG" href="/connect4/index.html" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
                         Connect4: Recreated in JavaScript</h4>
