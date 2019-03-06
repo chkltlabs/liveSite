@@ -19,8 +19,48 @@
         <main class="SDmain">
             <h2 class="pagetitle">BLOG</h2>
 <!--            Paste new blogs below           -->
-	
-	<div class="article">
+
+            <div class="article">
+                <h4 class="article-title">New Developments</h4>
+                <p class="article-sub"><i>When your teeth betray you, learn a new language</i></p>
+                <p class="article-date">3/6/2019</p><br>
+                <p class="article-body">
+                WHEW.
+                <br><br>
+                It has been a rough couple months. I'm glad to be standing here on the other side of it, but let me give a short rundown of how awful things have been.
+                <br><br>
+                <ol>
+                    <li>Found out I will lose all my tax return to garnishment, because of my defaulted loans.</li>
+                    <li>Got a $700 bill from the dentist AFTER my insurance pays the maximum for the year.</li>
+                    <li>Got a $3000 bill from Amy's dentist AFTER insurance for HER terrible teeth.</li>
+                    <li>Amy's dentist, against her wishes, opened a line of credit that curiously is valued almost exactly the same as the bill they gave her...</li>
+                    <li>Atlas, my SUV, is having trouble with his starter.</li>
+                    <li>Oh, and my best friend's father passed away.</li>
+                </ol>
+                <br><br>
+                In situations like these, it can be tempting to focus on the negative and wallow in self pity. Its 2019. Nobody got time for that shit.
+                <br>So, here's a similar list of all the good that has happened since I last posted.
+                <br><br>
+                <ol>
+                    <li>Put a down payment on a ring (don't tell Amy)</li>
+                    <li>Went to the peak of Mount Laguna for some incredible views and SNOW IN CALIFORNIA!</li>
+                    <li>Learned PHP, and refreshed and expanded my JavaScript and JQuery</li>
+                    <li>Asked my boss for a shot at coding for a living, and I've got an interview coming up!</li>
+                </ol>
+                <br><br>
+                What's important to remember here is that life is always going to be a mixed bag. You'll almost never have a straight up run of good luck, but you can choose
+                to focus on one or focus on the other, and that outlook will characterize your life. Despite the actual events being about half bad half good, your
+                outlook will color your memories and feelings about these moments. This is why being aware of non-neurotypical responses in the brain is so important, you can
+                tell when depression is making you focus on the bad and being aware of it makes it marginally easier to counteract through sheer force of will.
+                <br><br>
+                I don't know what the next few days will bring, the pressure is killing me, but I know that I will see Sean, I'll be there for him after his dad's passing,
+                and I will continue to follow my dreams and achieve my goals. Can't ask for more.
+
+                </p><br>
+                <p class="article-body"></p><br>
+            </div>
+
+	        <div class="article">
                 <h4 class="article-title">New Year, New Plan</h4>
                 <p class="article-sub"><i>Using everything available to get where I want to go</i></p>
                 <p class="article-date">1/15/2019</p><br>
@@ -43,10 +83,10 @@
                 <p class="article-body">I've also scheduled two dates to have the "Job Transition" conversation with my superiors, one in March and one in June. I like this company very much, and if possible would like to continue to work for them in a developer role, but if that isn't possible I cant let comfort stand in the way of progress. It's 2019 and we are impeaching facists, protecting trans kids, and <i>achieving our goals</i><br><br>Let's get it.
         
         <!-- between these tags is what the DB stores as 'body' -->
-        </p><br>
+                </p><br>
             </div>
 	
-	<div class="article">
+	        <div class="article">
                 <h4 class="article-title">Seeking Happiness</h4>
                 <p class="article-sub"><i>What is your "why"?</i></p>
                 <p class="article-date">9/21/2018</p><br>
@@ -56,9 +96,9 @@
                 <p class="article-body">Amy makes me happy. Spending time with her, talking to her, listening to her, making her laugh, all of it makes me happy. I couldn&rsquo;t ask for a better partner, and for a few years, that was enough. But after moving to a couple new cities that I swore would make me happier, and a couple new jobs that I swore would be better, they weren&rsquo;t. And I wasn&rsquo;t. I started to think I would never be happy, that maybe nobody anywhere was happy.</p><br>
                 <p class="article-body">I suspect I am building this job search up the same way in my mind, that once I get into programming and software development I will finally be happy, and it likely isn&rsquo;t true. Which begs the question, will I ever be happy at all? Will getting married do it? Buying a house? Getting a dog? A new computer? A ferrari? Having a kid or 12?</p><br>
                 <p class="article-body">What the fuck do I do?</p><br>
-        </div>
+            </div>
 
-	<div class="article">
+	        <div class="article">
                 <h4 class="article-title">Musings on the job search</h4>
                 <p class="article-sub"><i>My desert island full of code</i></p>
                 <p class="article-date">Posted September 11th, 2018</p><br>
