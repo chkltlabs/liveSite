@@ -155,8 +155,8 @@ a {
 
 .pagetitle {
     text-align: center;
-    padding-top: 5vh;
-    font-size: 3em;
+    padding-top: 0vh;
+    font-size: 15vh;
     text-transform: uppercase;
     letter-spacing: 4px;
     
@@ -172,7 +172,7 @@ a {
 .contactinfo {
     text-align: center;
     letter-spacing: 1px;
-    font-size: 1.5em;
+    font-size: 6vh;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -210,8 +210,8 @@ a {
 }
 
 .about-title {
-    font-size: 10em;
-    text-transform: uppercase;
+    font-size: 10vh;
+    /*text-transform: uppercase;*/
     text-align: center;
     position: fixed;
     top: 50%;
@@ -253,7 +253,7 @@ a {
 .article-title {
     border-top: 1px;
     border-color: white;
-    font-size: 1.75em;
+    font-size: 5vh;
     text-transform: uppercase;
 }
 
@@ -285,6 +285,7 @@ a {
     display: table-cell;
     float: left;
     width: 35%;
+    max-height: 20vh;
     margin:0 2.5%;
 }
 
@@ -387,150 +388,150 @@ a {
 
 /*-----------MEDIA QUERIES-------------*/
 
-@media all and (min-width: 2751px) {
-    .frontname {
-        font-size: 5em;
-    }
-    .list {
-        font-size: 1em;
-    }
-    .break {
-    display: none;
-    }
-    .contactinfo {
-        font-size: 4em;
-        letter-spacing: 6px;
-    }
-    .pagetitle {
-        padding-top: 1em;
-        font-size: 11em;
-    }
-    .navbar {
-        font-size: 3em;
-    }
-    .about-title {
-        font-size: 40em;
-    }
-    .port-row {
-    	font-size: 3em;
-    }
-    .article {
-    	font-size: 3em;
-    }
-}
+/*@media all and (min-width: 2751px) {*/
+    /*.frontname {*/
+        /*font-size: 5em;*/
+    /*}*/
+    /*.list {*/
+        /*font-size: 1em;*/
+    /*}*/
+    /*.break {*/
+    /*display: none;*/
+    /*}*/
+    /*.contactinfo {*/
+        /*font-size: 4em;*/
+        /*letter-spacing: 6px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*padding-top: 1em;*/
+        /*font-size: 11em;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: 3em;*/
+    /*}*/
+    /*.about-title {*/
+        /*font-size: 40em;*/
+    /*}*/
+    /*.port-row {*/
+    	/*font-size: 3em;*/
+    /*}*/
+    /*.article {*/
+    	/*font-size: 3em;*/
+    /*}*/
+/*}*/
 
-@media all and (min-width: 1800px) and (max-width: 2750px) {
-    .frontname {
-        font-size: 1.5em;
-    }
-    .list {
-        font-size: 1em;
-    }
-    .break {
-        display: none;
-    }
-    .contactinfo {
-        font-size: 4em;
-        letter-spacing: 6px;
-    }
-    .pagetitle {
-        padding-top: 1em;
-        font-size: 7em;
-    }
-    .navbar {
-        font-size: 2em;
-    }
-    .about-title {
-        font-size: 40em;
-    }
-    .port-row {
-        font-size: 2em;
-    }
-    .article {
-        font-size: 3em;
-    }
-}
+/*@media all and (min-width: 1800px) and (max-width: 2750px) {*/
+    /*.frontname {*/
+        /*font-size: 1.5em;*/
+    /*}*/
+    /*.list {*/
+        /*font-size: 1em;*/
+    /*}*/
+    /*.break {*/
+        /*display: none;*/
+    /*}*/
+    /*.contactinfo {*/
+        /*font-size: 4em;*/
+        /*letter-spacing: 6px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*padding-top: 1em;*/
+        /*font-size: 7em;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: 2em;*/
+    /*}*/
+    /*.about-title {*/
+        /*font-size: 40em;*/
+    /*}*/
+    /*.port-row {*/
+        /*font-size: 2em;*/
+    /*}*/
+    /*.article {*/
+        /*font-size: 3em;*/
+    /*}*/
+/*}*/
 
-@media all and (min-width: 1200px) and (max-width: 1799px) {
-    .frontname {
-        font-size: 3em;
-    }
-    .list {
-        font-size: 1em;
-    }
-    .break {
-    display: none;
-    }
-    .contactinfo {
-        font-size: 2em;
-        letter-spacing: 6px;
-    }
-    .pagetitle {
-        padding-top: 1em;
-        font-size: 5em;
-    }
-    .navbar {
-        font-size: 1.4em;
-    }
-}
+/*@media all and (min-width: 1200px) and (max-width: 1799px) {*/
+    /*.frontname {*/
+        /*font-size: 3em;*/
+    /*}*/
+    /*.list {*/
+        /*font-size: 1em;*/
+    /*}*/
+    /*.break {*/
+    /*display: none;*/
+    /*}*/
+    /*.contactinfo {*/
+        /*font-size: 2em;*/
+        /*letter-spacing: 6px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*padding-top: 0vh;*/
+        /*font-size: 15vh;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: 1.4em;*/
+    /*}*/
+/*}*/
 
-@media all and (min-width: 900px) and (max-width: 1199px) {
-    .break {
-    display: none;
-    }
-    .contactinfo {
-        font-size: 1em;
-        letter-spacing: 4px;
-    }
-    .pagetitle {
-        padding-top: 1em;
-        font-size: 2em;
-    }
-    .navbar {
-        font-size: 1em;
-    }
-}
+/*@media all and (min-width: 900px) and (max-width: 1199px) {*/
+    /*.break {*/
+    /*display: none;*/
+    /*}*/
+    /*.contactinfo {*/
+        /*font-size: 1em;*/
+        /*letter-spacing: 4px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*padding-top: 1em;*/
+        /*font-size: 2em;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: 1em;*/
+    /*}*/
+/*}*/
 
-@media all and (min-width: 600px) and (max-width: 899px){
-    .frontname {
-        font-size:  2em;
-    }
-    .list {
-        font-size: .6em
-    }
-    .contactinfo {
-        letter-spacing: 4px;
-    }
-    .pagetitle {
-        padding-top: 1em;
-        font-size: 4.5em;
-    }
-    .navbar {
-        font-size: 1em;
-    }
-}
+/*@media all and (min-width: 600px) and (max-width: 899px){*/
+    /*.frontname {*/
+        /*font-size:  2em;*/
+    /*}*/
+    /*.list {*/
+        /*font-size: .6em*/
+    /*}*/
+    /*.contactinfo {*/
+        /*letter-spacing: 4px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*padding-top: 1em;*/
+        /*font-size: 4.5em;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: 1em;*/
+    /*}*/
+/*}*/
 
-@media all and (max-width: 599px) {
-    .frontname {
-        font-size: 1.4em
-    }
-    .list {
-        font-size: .6em
-    }
-    .contactinfo {
-        font-size: 1em;
-        letter-spacing: 2px;
-    }
-    .pagetitle {
-        font-size: 3em;
-    }
-    .navbar {
-        font-size: .5em;
-    }
-    .about-title {
-        font-size: 4em;
-    }
-}
+/*@media all and (max-width: 599px) {*/
+    /*.frontname {*/
+        /*font-size: 1.4em*/
+    /*}*/
+    /*.list {*/
+        /*font-size: .6em*/
+    /*}*/
+    /*.contactinfo {*/
+        /*font-size: 1em;*/
+        /*letter-spacing: 2px;*/
+    /*}*/
+    /*.pagetitle {*/
+        /*font-size: 3em;*/
+    /*}*/
+    /*.navbar {*/
+        /*font-size: .5em;*/
+    /*}*/
+    /*.about-title {*/
+        /*font-size: 4em;*/
+    /*}*/
+/*}*/
 
 
 

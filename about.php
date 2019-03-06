@@ -1,8 +1,8 @@
 <?php include("inc/header.php"); ?>
         <main class="SDmain">
             <h2 class="pagetitle"></h2>
-            <h1 class="about-title" id="text0">Hello</h1>
-            <div class="about-body b" id="text1"><p>Welcome.<br>My name is Erik.<br>I enjoy Minimalism and Brutalism.</p></div>
+            <h1 class="about-title" id="text0">Welcome.</h1>
+            <div class="about-body b" id="text1"><p>My name is Erik.<br>I enjoy Minimalism and Brutalism.</p></div>
             <div class="about-body c"><p>I made this happen with<br>Javascript and JQuery.
             </p></div>
             <div class="about-body d"><p>I like Java as well.<br>Programs just make sense to me.
