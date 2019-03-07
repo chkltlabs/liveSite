@@ -5,7 +5,11 @@ function Snake(){
     this.yspeed = 0;
     this.total = 0;
     this.tail = [];
-
+    /**
+     * Checks to see if Snake has eaten food
+     * @param       pos         Position of the Food
+     * @returns     {boolean}   True if Snake Head overlaps food
+     */
     this.eat = function (pos) {
         let d = dist(this.x, this.y, pos.x, pos.y);
         if (d < 1){
@@ -18,14 +22,17 @@ function Snake(){
 
     /**
      * sets the direction of the snake's movement
-     * @param x
-     * @param y
+     * @param x     -1 for left, 1 for right, 0 for neutral
+     * @param y     -1 for up, 1 for down, 0 for neutral
      */
     this.dir = function (x, y) {
         this.xspeed = x;
         this.yspeed = y;
     };
 
+    /**
+     * Called to reset the game on Game Over
+     */
     this.reset = function () {
         this.x = 0;
         this.y = 0;
@@ -37,6 +44,9 @@ function Snake(){
         pickLocation();
     };
 
+    /**
+     * checks for various states that would cause a Game Over, and calls the reset() function.
+     */
     this.death = function () {
         for (let i = 0; i < this.tail.length; i++) {
             let pos = this.tail[i];
@@ -74,16 +84,24 @@ function Snake(){
         this.y = constrain(this.y, 0, height-scl)
     };
 
+    /**
+     * Governs the render of the Snake Head and Tail pieces, called every frame by the draw() function in sketch.js
+     */
     this.show = function () {
         //drawing the tail from the tail array
         fill(255);
         for (let i = 0; i < this.tail.length; i++) {
             rect(this.tail[i].x, this.tail[i].y, scl, scl);
         }
+        //drawing the head each frame
         fill(255);
         rect(this.x, this.y, scl, scl);
     };
 
+    /**
+     * Utility function for informing whether the snake is moving vertically or horizontally
+     * @returns {string}    Will be the string 'vertical' or 'horizontal'
+     */
     this.currentDir = function () {
         if(this.xspeed === 0){return 'vertical';}
         if(this.yspeed === 0){return 'horizontal';}

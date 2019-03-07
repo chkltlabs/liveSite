@@ -8,8 +8,8 @@ class Board {
 
     /**
      * Generates 2D array of spaces.
-     * @param   {rows}      number of horizontal rows in the board, default is this.rows
-     * @param   {columns}   number of vertical columns in the board, default is this.columns
+     * @param   {integer}   rows = number of horizontal rows in the board, default is this.rows
+     * @param   {integer}   cols = number of vertical columns in the board, default is this.columns
      * @return  {Array}     An array of space objects
      */
     createSpaces(rows = this.rows, columns = this.columns){
@@ -25,6 +25,9 @@ class Board {
         return rtn;
     }
 
+    /**
+     * Calls the drawSVGSpace() rendering method on each of the objects in the this.spaces array
+     */
     drawHTMLBoard(){
         for (let column of this.spaces){ //called a 'for-of' loop, similar to foreach loops in php and java.
             for (let space of column){ //syntax is to declare a new variable 'space' to represent each object in the provided array 'column'

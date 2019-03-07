@@ -6,6 +6,9 @@ class Token {
         this.columnLocation = 0;
     }
 
+    /**
+     * renders a token onscreen, which is styled with the CSS class .token
+     */
     drawHTMLToken(){
         const div1 = document.createElement('div');
         document.getElementById('game-board-underlay').append(div1);
@@ -18,10 +21,6 @@ class Token {
         return document.getElementById(this.id);
     }
 
-    /**
-     * Gets left offset of html element.
-     * @return  {number}   Left offset of token object's htmlToken.
-     */
     get offsetLeft(){
         return this.htmlToken.offsetLeft;
     }

@@ -9,6 +9,9 @@ $('#begin-game').click(function () {
     document.getElementById('play-area').style.opacity = '1';
 });
 
+/**
+ * Listens for keydown events, and calls the handler function
+ */
 document.addEventListener('keydown', function(event){
     gaem.handleKeydown(event); //outputs a string naming the pressed key
 });
