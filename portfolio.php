@@ -16,6 +16,20 @@
                 </div>
 -->
             <div class="port-row">
+                <a href="/snake/index.html"><img src="/img/SnakeWide.PNG" href="/snake/index.html" class="port-image"></a>
+                <div class="port-text">
+                    <h4 class="port-title">
+                        Snake: Recreated in JavaScript</h4>
+                    <p class="port-sub">All Aboard The Coding Train</p><br>
+                    <p class="port-desc">In perusing the internet for JavaScript related content, I came across a series of videos by The Coding Train that use a JavaScript library called P5,
+                    which is used to make graphics and game animations more intuitive and fluid. I followed the original project, but added my own finishing features, including logic to govern
+                    deaths by edge-overlap, fixing a bug that caused food to spawn on squares currently occupied by the snake, and preventing the player from turning the snake head directly back
+                    on itself, which used to just result in a game loss. Click the image to play, using the arrow keys.</p><br>
+                </div>
+            </div>
+            <br><br><br><br><br>
+
+            <div class="port-row">
                 <a href="/connect4/index.html"><img src="/img/Connect4Wide.PNG" href="/connect4/index.html" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
