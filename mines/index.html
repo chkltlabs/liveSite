@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+</head>
+<body>
+<div id="placeholder"></div>
+<script src="sketch.js"></script>
+<script src="Cell.js"></script>
+<p>Click a cell to reveal it, hold SHIFT and click to add a FLAG.
+<br> Win by flagging all 10 Bombs without detonating them! <br>
+Please note, you MUST reveal ALL squares that are not bombs to win!</p>
+<div id="win" style="display: none">
+    <h1 id="wintext" style="color: red;">WINNER!</h1>
+</div>
+</body>
+</html>

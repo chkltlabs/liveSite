@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    display: block;
+}
+
+#placeholder{
+    background: white;
+    height: 1vh;
+    width: 1vw;
+}

@@ -16,6 +16,22 @@
                 </div>
 -->
             <div class="port-row">
+                <a href="/mines/index.html"><img src="/img/MinesWide.PNG" href="/mines/index.html" class="port-image"></a>
+                <div class="port-text">
+                    <h4 class="port-title">
+                        Minesweeper: Recreated in JavaScript</h4>
+                    <p class="port-sub">A conversion from Prototype to Class</p><br>
+                    <p class="port-desc">I am fortunate enough in my coding adventures to have limited exposure to the old Prototype model of Object Oriented Programming in JS,
+                        however when I came across a coding challenge from 2017 to recreate the gameplay of Minesweeper in p5, I couldn&#39;t resist. I learned a lot about the old syntax
+                        of JS classes, and the bane of OOP in JS (using 'this.' properly), and ultimately the conversion to modern class syntax was virtually painless.
+                        <br><br>In addition to the basic gameplay walked through in the tutorial, I was able to add several pieces of functionality,
+                        including Flagging undetonated Mines, checking for a win or loss state and informing the user, and making the UX scale with browser window height.
+                        <br><br>Click the image to play, using the mouse and shift key.</p><br>
+                </div>
+            </div>
+            <br><br><br><br><br>
+
+            <div class="port-row">
                 <a href="/snake/index.html"><img src="/img/SnakeWide.PNG" href="/snake/index.html" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
@@ -24,7 +40,7 @@
                     <p class="port-desc">In perusing the internet for JavaScript related content, I came across a series of videos by The Coding Train that use a JavaScript library called P5,
                     which is used to make graphics and game animations more intuitive and fluid. I followed the original project, but added my own finishing features, including logic to govern
                     deaths by edge-overlap, fixing a bug that caused food to spawn on squares currently occupied by the snake, and preventing the player from turning the snake head directly back
-                    on itself, which used to just result in a game loss. Click the image to play, using the arrow keys.</p><br>
+                    on itself, which used to just result in a game loss. <br><br>Click the image to play, using the arrow keys.</p><br>
                 </div>
             </div>
             <br><br><br><br><br>
@@ -37,7 +53,7 @@
                     <p class="port-sub">A Student Project</p><br>
                     <p class="port-desc">As part of my self-education in all things software, one of my learning sources had a learn-by-doing
                         project set before us. With minimal help and the provided HTML and CSS, I wrote the Object Oriented Javascript used
-                        to create this <strike>blatant rip-off</strike> well meaning homage to the classic childrens game. Click the image to
+                        to create this <strike>blatant rip-off</strike> well meaning homage to the classic childrens game. <br><br>Click the image to
                         play, using the arrow keys.</p><br>
                 </div>
             </div>
@@ -53,7 +69,7 @@
                     database of data scraped from the top 50,000 websites that detailed what tech they were using. I wrote SiteStats to bridge the two. </p><br>
                     <p class="port-desc">Written on the JavaFX platform for Windows, it receives a .CSV full of URLs,
                         and querys the database for its entire dataset, working with it as a ResultSet object. It then collates the known data about the input URLs
-                    into a format useable by our new email platform. Click the image to view the GitHub repo.</p><br>
+                    into a format useable by our new email platform. <br><br>Click the image to view the GitHub repo.</p><br>
                 </div>
             </div>
             <br><br><br><br><br>
