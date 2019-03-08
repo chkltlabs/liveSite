@@ -16,7 +16,7 @@
                 </div>
 -->
             <div class="port-row">
-                <a href="/mines/index.html"><img src="/img/MinesWide.PNG" href="/mines/index.html" class="port-image"></a>
+                <a href="/mines/index.html"><img src="/img/MinesWide.PNG" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
                         Minesweeper: Recreated in JavaScript</h4>
@@ -32,7 +32,7 @@
             <br><br><br><br><br>
 
             <div class="port-row">
-                <a href="/snake/index.html"><img src="/img/SnakeWide.PNG" href="/snake/index.html" class="port-image"></a>
+                <a href="/snake/index.html"><img src="/img/SnakeWide.PNG" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
                         Snake: Recreated in JavaScript</h4>
@@ -46,7 +46,7 @@
             <br><br><br><br><br>
 
             <div class="port-row">
-                <a href="/connect4/index.html"><img src="/img/Connect4Wide.PNG" href="/connect4/index.html" class="port-image"></a>
+                <a href="/connect4/index.html"><img src="/img/Connect4Wide.PNG" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">
                         Connect4: Recreated in JavaScript</h4>
@@ -60,7 +60,7 @@
             <br><br><br><br><br>
 
             <div class="port-row">
-                <img src="/img/siteStats.png" href="https://github.com/chkltlabs/SiteStats" class="port-image">
+                <a href="https://github.com/chkltlabs/SiteStats"><img src="/img/siteStats.png"  class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">Site Stats</h4>
                     <p class="port-sub">An elegant solution to a tedious problem</p><br>
@@ -85,7 +85,7 @@
                     <p class="port-desc">A passion project produced by Nan Bozeman, a close friend of mine, Dysmorphia is a horror film which explores
                         a character who struggles with eating disorders bordering on mania. On set, I led a team of grips in setting up and tearing down
                         lighting equipment, set dressings, monitors and other equipment the creative team used to produce the film. Off set, I created
-                        their standalone website (now defunct), utilizing a mix of HTML, CSS and JavaScript.</p>
+                        their standalone website (now defunct), utilizing HTML, CSS and JavaScript.</p>
                 </div>
             </div>
             <br><br><br><br><br>
