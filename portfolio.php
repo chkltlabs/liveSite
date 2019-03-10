@@ -25,7 +25,7 @@
                         however when I came across a coding challenge from 2017 to recreate the gameplay of Minesweeper in p5, I couldn&#39;t resist. I learned a lot about the old syntax
                         of JS classes, and the bane of OOP in JS (using 'this.' properly), and ultimately the conversion to modern class syntax was virtually painless.
                         <br><br>In addition to the basic gameplay walked through in the tutorial, I was able to add several pieces of functionality,
-                        including Flagging undetonated Mines, checking for a win or loss state and informing the user, and making the UX scale with browser window height.
+                        including Flagging undetonated Mines, checking for a win or loss state and informing the user, and making the UX scale with browser window height (on refresh).
                         <br><br>Click the image to play, using the mouse and shift key.</p><br>
                 </div>
             </div>

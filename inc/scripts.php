@@ -8,7 +8,7 @@
         $(document).ready(function(){
            $(".button").click(function(){
            $(this).attr("disabled", "disabled");
-           $(".about-title").fadeOut(300, function() {
+           $(".about-title").fadeOut(300, function(){
                fadeInAndOut($(".b"), 4000, function(){
                    fadeInAndOut($(".c"), 4000, function(){
                        fadeInAndOut($(".d"), 4000, function(){

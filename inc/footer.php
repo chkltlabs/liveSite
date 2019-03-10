@@ -1,3 +1,4 @@
+<!-- DO NOT INCLUDE BOTH SCRIPTS.PHP AND FOOTER.PHP -->
         <footer>
             <div class="contact-social-media-block">
             <a href="https://www.instagram.com/accounts/login/?next=%2Fgrotz110%2F&source=follow" class="sm">
