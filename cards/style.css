@@ -1,0 +1,52 @@
+pre {
+
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+body {
+    background: black;
+}
+.block {
+    font-size: 4vh;
+    color: white;
+    border-color: lightgray;
+    border: solid;
+    border-radius: 22px;
+    padding: 20px;
+    text-align: center
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+
+.blue    { background-color: #3b8ec2; }
+
+#next {
+    margin: auto;
+    width: 80%;
+    height: 10%;
+    font-size: 4vh;
+    
+}
