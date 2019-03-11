@@ -3,7 +3,7 @@ const answer    = document.getElementById('answer');
 const button    = document.getElementById('next');
 const select      = document.getElementById('select');
 
-document.addEventListener('keydown', function(e){
+document.addEventListener('keypress', function(e){
     if(e.key.toString() === 'Enter' || e.key.toString() === ' '){
         buttonToggle();
     }
