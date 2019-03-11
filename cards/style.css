@@ -12,11 +12,12 @@ body {
 .block {
     font-size: 2vh;
     color: white;
+    width: 80%;
     border-color: lightgray;
     border: solid;
     border-radius: 22px;
     padding: 20px;
-    text-align: center
+
 }
 
 .styled-select {
@@ -47,6 +48,6 @@ body {
     margin: auto;
     width: 80%;
     height: 10%;
-    font-size: 4vh;
+    font-size: 2vh;
     
 }
