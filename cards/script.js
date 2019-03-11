@@ -1,10 +1,26 @@
-
-
 const question  = document.getElementById('question');
 const answer    = document.getElementById('answer');
 const button    = document.getElementById('next');
 const select      = document.getElementById('select');
 
+document.addEventListener('keydown', function(e){
+    if(e.key.toString() === 'Enter' || e.key.toString() === ' '){
+        buttonToggle();
+    }
+});
+
+button.addEventListener('click', buttonToggle);
+
+function buttonToggle() {
+    if(button.textContent === "Next Flashcard" || button.textContent === "Let's Begin!"){
+        getRandFact();
+        button.textContent = 'Show Answer';
+        answer.style.display = 'none';
+    } else {
+        button.textContent = "Next Flashcard";
+        answer.style.display = 'block';
+    }
+}
 
 function getRandFact() {
     let url = select.options[select.selectedIndex].value + '.json';
@@ -20,14 +36,3 @@ function getRandFact() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-
-button.addEventListener('click', function () {
-    if(this.textContent === "Next Flashcard" || this.textContent === "Let's Begin!"){
-        getRandFact();
-        this.textContent = 'Show Answer';
-        answer.style.display = 'none';
-    } else {
-        this.textContent = "Next Flashcard";
-        answer.style.display = 'block';
-    }
-});
