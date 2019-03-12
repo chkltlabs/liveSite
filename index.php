@@ -58,7 +58,9 @@
             <ul>
                 <li class="list">Software Developer</li>
                 <li class="list">Acroyogi</li>
-                <li class="list">Craft Beer Enthusiast</li><br>
+                <li class="list">Craft Beer, Outer Space Enthusiast</li>
+                <li class="list">Over 40% ramen noodles by volume</li>
+                <li class="list">World Traveler</li><br>
                 <li class="list"><a href="/about.php">this.enter()</a></li>
             </ul>
         </div>

@@ -5,6 +5,7 @@
     font-size: 15vh;
     text-transform: uppercase;
     letter-spacing: 4px;
+    z-index: 40;
 }
 
 body:not(.editor) {
@@ -93,6 +94,7 @@ a {
     height: 29px;
     overflow: hidden;
     width: 240px;
+    font-family: "Courier New", serif;
 
 }
 
@@ -103,10 +105,12 @@ a {
     height: 29px;
     padding: 5px; /* If you add too much padding here, the options won't show in IE */
     width: 268px;
+    font-family: "Courier New", serif;
 }
 
 .styled-select select option{
     background-color: black;
+    font-family: "Courier New", serif;
 }
 
 .semi-square {
