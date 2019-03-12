@@ -3,8 +3,8 @@
             <h2 class="pagetitle"></h2>
             <h1 class="about-title" id="text0">Welcome.</h1>
             <div class="about-body b" id="text1"><p>
-                    Welcome to my site.<br>
-                    As you can guess, I am a minimalist.</p></div>
+                    I'm Erik.<br>
+                    I'm a Software Developer</p></div>
             <div class="about-body c"><p>
                     I made this happen with<br>
                     Javascript and JQuery.
