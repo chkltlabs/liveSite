@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="s.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.3/ace.js"></script>
         <meta name="viewport" content="width=device-width">
     </head>
@@ -64,7 +65,7 @@
                 <li class="list"><a href="/about.php">this.enter()</a></li>
             </ul>
         </div>
-<script src="js/scripts.js"></script>
+<script src="js/index.js"></script>
     </body>
 </html>
 
