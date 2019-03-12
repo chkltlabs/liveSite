@@ -1,7 +1,7 @@
 /*--Sitewide--*/
 .pagetitle {
     text-align: center;
-    padding-top: 0vh;
+    padding-top: 0;
     font-size: 15vh;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -39,7 +39,7 @@ a {
 
 .name {
     float: left;
-    padding: 0vh;
+    padding: 0;
     font-size: 4vh;
     text-transform: uppercase;
     text-decoration: none;
