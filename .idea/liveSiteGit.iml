@@ -8,5 +8,6 @@
     <orderEntry type="library" name="p5" level="application" />
     <orderEntry type="library" name="@types/p5" level="application" />
     <orderEntry type="library" name="@types/jquery" level="application" />
+    <orderEntry type="library" name="@types/ace" level="application" />
   </component>
 </module>
