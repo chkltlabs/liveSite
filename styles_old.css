@@ -61,7 +61,8 @@ table {
 /*-----------MY CODE-----------*/
 
 * {
-    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    /*font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;*/
+    font-family: "Courier New", serif;
     color: white
 }
 
@@ -98,7 +99,8 @@ label {
 }
 
 .frontpage {
-    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    /*font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;*/
+    font-family: "Courier New", serif;
     text-transform:uppercase;
     letter-spacing: 8px;
     font-size: 3.5em;
@@ -118,7 +120,8 @@ label {
 }
 
 .navbar {
-    font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+    /*font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;*/
+    font-family: "Courier New", serif;
     letter-spacing: 3px;
     background-color: #000;
     position: fixed;

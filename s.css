@@ -1,0 +1,248 @@
+/*--Sitewide--*/
+.pagetitle {
+    text-align: center;
+    padding-top: 0;
+    font-size: 15vh;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+body:not(.editor) {
+    font-family: "Courier New", serif;
+    color: white;
+    background-color: black;
+}
+
+.SDmain {
+    margin-top: 15vh;
+}
+
+/*--Navbar--*/
+.navbar {
+    /*font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;*/
+    font-family: "Courier New", serif;
+    letter-spacing: 3px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.name {
+    float: left;
+    padding: 0;
+    font-size: 4vh;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    float: right;
+    text-decoration: none;
+    color: white;
+    padding: 3vh .45em;
+
+}
+
+/*--Footer--*/
+.contact-social-media-block{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%)
+
+}
+
+.contact-social-media {
+    height: 5vh;
+    width: 5vw;
+}
+
+/*--Index Page--*/
+#editor {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 60vw;
+    min-width: 550px;
+    height: 70vh;
+}
+
+@media (max-width: 2750px) and (min-width: 870px){
+    .frontpage {
+        float: right;
+        position: absolute;
+        top: 0;
+        left: 67vw;
+    }
+}
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+}
+
+.styled-select select option{
+    background-color: black;
+}
+
+.semi-square {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.blue select    { color: #fff; }
+
+/*--About Page--*/
+.about-title {
+    font-size: 10vh;
+    /*text-transform: uppercase;*/
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.about-body {
+
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+}
+.b{display: none;}
+
+.c{display: none;}
+
+.d{display: none;}
+
+.e{display: none; font-size: 1.5em;}
+
+.f{display: none;}
+
+.g{display: none;}
+
+.h{display: none;}
+
+.button {
+    font-family: "Courier New", serif;
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+/*--Blog Page--*/
+.article {
+    color: white;
+    width: 85%;
+    margin: auto;
+}
+
+.article-title {
+    border-top: 1px;
+    border-color: white;
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+
+.article-sub,
+.article-date,
+.port-sub
+{
+    font-family: helvetica, sans-serif;
+    font-style: italic;
+}
+.article-body,
+.port-desc
+{
+    text-indent: 1.75em;
+    line-height: 1.2em;
+}
+
+/*--Portfolio Page--*/
+.port-table {
+    display: table;
+    margin-top: 1.25em;
+}
+
+.port-row {
+    display: table-row;
+    margin-top: 1.25em;
+}
+
+.port-image {
+    display: table-cell;
+    float: left;
+    width: 35%;
+    margin:0 2.5%;
+}
+
+.port-text {
+    display: table-cell;
+    float: right;
+    width: 55%;
+    margin: 0 2.5%;
+}
+
+.port-title {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/*--Contact Page--*/
+
+.contactinfo {
+     text-align: center;
+     letter-spacing: 1px;
+     font-size: 6vh;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+
+}
