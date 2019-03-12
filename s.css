@@ -25,6 +25,7 @@ body:not(.editor) {
     background-color: #000;
     position: fixed;
     top: 0;
+    left:0;
     width: 100%;
     color: white;
     margin: 0;
@@ -35,6 +36,7 @@ body:not(.editor) {
 a {
     text-decoration: none;
     color: white;
+    margin: 3px  ;
 }
 
 .name {
@@ -244,5 +246,7 @@ a {
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
-
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% !important;
 }
