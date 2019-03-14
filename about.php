@@ -6,11 +6,11 @@
                     I'm Erik.<br>
                     I'm a Software Developer.</p></div>
             <div class="about-body c"><p>
-                    I made this happen with<br>
+                    I made this happen with
                     Javascript and JQuery.
             </p></div>
             <div class="about-body d"><p>
-                    I like Java and PHP as well.<br>
+                    I like Java and PHP as well.
                     Programming makes me happy.
             </p></div>
             <div class="about-body e"><p>

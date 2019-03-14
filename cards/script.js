@@ -29,7 +29,7 @@ function getRandFact() {
         if (this.readyState === 4 && this.status === 200) {
             let data = JSON.parse(this.responseText);
             let randQ = Math.floor(Math.random() * data.q.length);
-            question.firstElementChild.textContent = data.q[randQ];
+            question.firstElementChild.innerHTML = data.q[randQ];
             answer.firstElementChild.innerHTML = data.a[randQ];
         }
     };
