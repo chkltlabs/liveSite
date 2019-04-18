@@ -7,7 +7,7 @@
             Blank row template
 
                     <div class="port-row">
-                    <img src="" href="" class="port-image">
+                    <a href=""><img src="" class="port-image"></a>
                     <div class="port-text">
                         <h4 class="port-title"></h4>
                         <p class="port-sub"></p><br>
@@ -15,6 +15,16 @@
                     </div>
                 </div>
 -->
+
+            <div class="port-row">
+                <a href="/Orbitals/index.html"><img src="/img/solarFinal.png" class="port-image"></a>
+            <div class="port-text">
+                <h4 class="port-title">Class Project: Model the Solar System</h4>
+                <p class="port-sub">SoftStack Factory Phase 1 Final</p><br>
+                <p class="port-desc">This is where I will put a description at some point!</p><br>
+            </div>
+        </div>
+
             <div class="port-row">
                 <a href="/mines/index.html"><img src="/img/MinesWide.PNG" class="port-image"></a>
                 <div class="port-text">
