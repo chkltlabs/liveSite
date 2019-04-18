@@ -60,7 +60,7 @@
             <br><br><br><br><br>
 
             <div class="port-row">
-                <a href="https://github.com/chkltlabs/SiteStats"><img src="/img/siteStats.png"  class="port-image"></a>
+                <a href="https://github.com/chkltlabs/SiteStats"><img src="/img/siteStats.png" class="port-image"></a>
                 <div class="port-text">
                     <h4 class="port-title">Site Stats</h4>
                     <p class="port-sub">An elegant solution to a tedious problem</p><br>
