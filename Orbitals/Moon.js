@@ -1,16 +1,15 @@
 class Moon {
-  constructor(planet, distanceFromPlanet, size, color, daysInYear, labelText = 'moon', eccentricity = 0){
+  constructor(planet, distanceFromPlanetSurface, diameter, color, daysInYear, labelText = 'moon', eccentricity = 0){
     this.planet = planet;
     this.x = this.planet.x;
     this.y = this.planet.y;
-    this.orbitX = distanceFromPlanet *(1 - eccentricity);
-    this.orbitY = distanceFromPlanet *(1 + eccentricity);
-    this.orbitX += planet.r/2;
-    this.orbitY += planet.r/2;
-    this.size = size;
+    this.orbitHt = Math.floor(this.planet.d + (distanceFromPlanetSurface*2)/distanceScale);
+    this.orbitX = this.orbitHt *(1 - eccentricity);
+    this.orbitY = this.orbitHt *(1 + eccentricity);
+    this.size = diameter/bodyScale;
     this.color = color;
     this.theta = 0;
-    this.thetaChange = 360/daysInYear/50;
+    this.thetaChange = (360/daysInYear/50);
     this.labelText = labelText;
 
   }
@@ -18,7 +17,7 @@ class Moon {
   orbit(){
     this.x = this.orbitX * Math.cos(this.theta) + this.planet.x;
     this.y = this.orbitY * Math.sin(this.theta) + this.planet.y;
-    this.theta += this.thetaChange;
+    this.theta += this.thetaChange * stopper;
     if(this.theta > 360){this.theta = 0;}
   }
 

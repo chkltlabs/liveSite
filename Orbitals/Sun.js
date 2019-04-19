@@ -1,17 +1,18 @@
 class Sun {
-  constructor(size, color){
+  constructor(size, color, labelText, ringMult = 1){
     this.x = mid;
     this.y = 0;
-    this.r = size/scale;
+    this.d = size/bodyScale;
     this.color = color;
-
+    this.labelName = labelText;
+    this.ringMult = ringMult;
   }
 
 
   show(){
     noStroke();
     fill(this.color);
-    ellipse(this.x, this.y, this.r);
+    ellipse(this.x, this.y, this.d);
 
   }
 
