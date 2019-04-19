@@ -17,7 +17,7 @@
 -->
 
             <div class="port-row">
-                <a href="/Orbitals/index.html"><img src="/img/solarFinal.png" class="port-image"></a>
+                <a href="/orbitals/index.html"><img src="/img/solarFinal.png" class="port-image"></a>
             <div class="port-text">
                 <h4 class="port-title">Class Project: Model the Solar System</h4>
                 <p class="port-sub">SoftStack Factory Phase 1 Final</p><br>
