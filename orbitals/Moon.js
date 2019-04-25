@@ -9,7 +9,7 @@ class Moon {
     this.size = diameter/bodyScale;
     this.color = color;
     this.theta = 0;
-    this.thetaChange = (360/daysInYear/50);
+    this.thetaChange = (360/daysInYear) * (Math.PI/180) * speed;
     this.labelText = labelText;
 
   }
@@ -18,7 +18,7 @@ class Moon {
     this.x = this.orbitX * Math.cos(this.theta) + this.planet.x;
     this.y = this.orbitY * Math.sin(this.theta) + this.planet.y;
     this.theta += this.thetaChange * stopper;
-    if(this.theta > 360){this.theta = 0;}
+    if(this.theta > 6.28319){this.theta = 0;}
   }
 
   show(){

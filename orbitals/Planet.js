@@ -10,8 +10,10 @@ class Planet {
     //eccentricity is defined as the percentage difference between the highest(and lowest) point in an orbit and the average height of that orbit. If it is 0, that orbit is circular.
     this.orbitX =  this.orbitHt *(1 - eccentricity);
     this.orbitY =  this.orbitHt *(1 + eccentricity);
+    //theta is the position in the orbit measured in radians. 1.5708 places the planet's start at the "southern" extreme of its orbit
     this.theta = 1.5708;
-    this.thetaChange = (360/daysInYear/50); //this calculation allows year to be set to the number of earth days in that planet's year, and then scaled for viewability
+    //this is the formula for conversion of earth's year to each planet's year, based on the conversion from degrees to radians
+    this.thetaChange = (365.24/daysInYear) * (Math.PI/180) * speed;
     this.labelText = labelText;
   }
 
@@ -19,7 +21,7 @@ class Planet {
     this.x = this.orbitX * Math.cos(this.theta) + mid;
     this.y = this.orbitY * Math.sin(this.theta);
     this.theta += this.thetaChange * stopper;
-    if(this.theta > 6){this.theta = 0;}
+    if(this.theta > 6.28319){this.theta = 0;}
   }
   show(){
     this.orbit();

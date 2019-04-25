@@ -2,9 +2,10 @@ let sol, mercury, venus, earth, mun, mars, ab1, ab2, ab3, jupiter, io, europa, g
 const mid = window.innerWidth/2;
 const bodyScale = 12000;
 const distanceScale = bodyScale*120;
+const speed = 1;
 let stopper = 1;
 let stuff = [];
-function setup() {//all distance and diameter inputs are the real-world measurements in km
+function setup() {//all inputs mirror real world statistics on each object
    createCanvas(mid*2, 6500);
    stuff.push(sol       = new Sun(1392684, 'yellow', 'The Sun'));
    stuff.push(mercury   = new Planet(sol,57909000,  4880, 'brown', 88, 'Mercury', 0.2056));
@@ -43,7 +44,6 @@ function mouseClicked() {
 function draw() {
   let pointer = window.scrollY;
   let blurb = '';
-  console.log(pointer);
   blurbSetter();
   background(0);
   stuff.forEach(thing => thing.show());
@@ -61,7 +61,7 @@ function draw() {
     if(pointer*distanceScale < 550000000){
       blurb = 'The Inner Solar System: \n Home to your favorite elevated primates, \n the Inner Solar System harbors the \'Goldilocks Zone\',\n the area where the suns rays do not scorch the earth,\n and also still keep us from freezing. \nIt is the only area where carbon based life can flourish.';
     }else if(pointer*distanceScale >= 550000000 && pointer*distanceScale < 1000000000){
-      blurb = 'The Asteroid Belts: \n Home to the dwarf planet Ceres, \nour Asteroid Belt is divided into three distinct bands. \nBetween each band, the resonant frequency of Jupiter\'s \nimmense gravity well has caused orbits to destabilize, \nit\'s victims most often falling into the sol';
+      blurb = 'The Asteroid Belts: \n Home to the dwarf planet Ceres, \nour Asteroid Belt is divided into three distinct bands. \nBetween each band, the resonant frequency of Jupiter\'s \nimmense gravity well has caused orbits to destabilize, \nit\'s victims most often falling into the sun';
     }else if(pointer*distanceScale >= 1000000000 && pointer*distanceScale < 2160000000){
       blurb = 'Though only the 4 largest are represented here, \nJupiter is home to more than 70 Moons!\n These 4 were discovered by Galileo Galilei, \nthe inventor of the modern refracting telescope, in 1609.';
     }else if(pointer*distanceScale >= 2160000000 && pointer*distanceScale < 3300000000){
