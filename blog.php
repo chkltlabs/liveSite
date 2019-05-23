@@ -21,6 +21,16 @@
 <!--            Paste new blogs below           -->
 
             <div class="article">
+                <h4 class="article-title">It's been about a month, time to check in.</h4>
+                <p class="article-sub"><i>Not a pro, but not quite an amateur either.</i></p>
+                <p class="article-date">5/23/2019</p><br>
+                <p class="article-body">So.<br>Season 8 of Game of Thrones was utter crap.<br>I move in July and have to start apartment hunting.<br> Oh, and I'm totally a software developer now.</p><br>
+                <p class="article-body">I've officially been on the job for about 3 weeks now. Overall, I'm happy with my new career, and it feels like the work I do is needed and respected by the people I work with. I feel like I have plenty of people willing to mentor me as well. On top of it all, I have an official salary renegotiation planned for the end of my 90 day trial period, in August.</p><br>
+                <p class="article-body">This new apartment is really crucial to how successful I will be in the next year at paying down my major debts and getting my credit back on track. I don't want to spend the next decade of my life making tiny payments that don't amount to anything, so instead I'll be paying things off in big chunks, and there is a lot to pay off. I owe money on a computer, our furniture, the ring, my student loans, the car, and Amy has some medical debt thats getting to a scary place. If we lived perfectly frugally, we could pay it all down in a couple of years, which is a really good feeling, but it takes good execution too. Discipline, gumption, chutzpah, moxy, and a certain je ne sais quoi. All that jazz.</p><br>
+                <p class="article-body">It feels good to succeed, and it feels even better to do so after consistently failing for so long.</p><br>
+            </div>
+
+            <div class="article">
                 <h4 class="article-title">The previous entry was posted by a Fucking Moron</h4>
                 <p class="article-sub"><i>It has to get worse before it gets better</i></p>
                 <p class="article-date">4/17/2019</p><br>
