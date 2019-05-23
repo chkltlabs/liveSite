@@ -256,3 +256,22 @@ a {
     background-position: 50% !important;
 
 }
+
+/*--404 page--*/
+#fuck{
+    margin-bottom: auto;
+}
+
+#expletive-list{
+    margin-bottom: 60px;
+}
+
+.four-oh-four{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.center{
+    margin: auto;
+    text-align: center;
+}
