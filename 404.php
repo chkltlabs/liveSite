@@ -25,7 +25,7 @@
             <li>Donate to wildlife conservation to own the conservz.</li>
             <li>Donate to wildlife conservation to own the libs.</li>
             <li>Troll politicians by throwing milkshakes at them.</li>
-            <li>"Shitfucking fuckshit, Darlene, this is a sticky pickle, God Dammit</li>
+            <li>"Shitfucking fuckshit, Darlene, this is a sticky pickle, God Dammit"</li>
             <li>"FUCK YOU KAREN, BRING ME MY INTERNET!"</li>
             <li>Watch the last season of Game of Thrones, using your tears to watercolor a painting of the writers being murdered by Ghost.</li>
             <li>Overthrow Capitalism</li>
