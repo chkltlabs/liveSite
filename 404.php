@@ -12,7 +12,7 @@
     <h1>File not found (404 error)</h1>
   </div>
   <div>
-      <p>If you think what you're looking for should be here, please contact the site owner.</p>
+      <p>If you think what you're looking for should be here, <a href="/contact.php">please contact the site owner.</a></p>
   </div>
     <div>
         <p>In the meantime, here is a list of creative ways to express your frustration.</p>
