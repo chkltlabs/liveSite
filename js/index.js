@@ -20,7 +20,7 @@ selectBox.addEventListener('change', function () {
             '            \'HTML\',\n' +
             '            \'Java\'\n' +
             '            ];\n' +
-            '        this.hasDevJob = false;\n' +
+            '        this.hasDevJob = true;\n' +
             '    }\n' +
             '    get resume(){\n' +
             '        return \'contact.php\';\n' +
@@ -54,7 +54,7 @@ selectBox.addEventListener('change', function () {
             'class Erik\n' +
             '{\n' +
             '    var $skills = [];\n' +
-            '    var $hasDevJob = false;\n' +
+            '    var $hasDevJob = true;\n' +
             '\n' +
             '    function __construct(){\n' +
             '        $skills = [\'JavaScript\',\n' +
@@ -96,7 +96,7 @@ selectBox.addEventListener('change', function () {
             '\n' +
             'public class Erik{\n' +
             '    Array skills = new Array();\n' +
-            '    boolean hasDevJob = false;\n' +
+            '    boolean hasDevJob = true;\n' +
             '\n' +
             '    public Erik(){\n' +
             '        skills.add(\'JavaScript\');\n' +

@@ -26,7 +26,7 @@
             'HTML',
             'Java'
             ];
-        this.hasDevJob = false;
+        this.hasDevJob = true;
     }
     get resume(){
         return 'contact.php';
@@ -57,7 +57,7 @@
                 Erik V Gratz
             </h1>
             <ul>
-                <li class="list">Software Developer</li>
+                <li class="list">PHP Software Developer</li>
                 <li class="list">Acroyogi</li>
                 <li class="list">Craft Beer, Outer Space Enthusiast</li>
                 <li class="list">Over 40% ramen noodles by volume</li>
